@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background{
+   background-image: url("./images/BGimage.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+}
+.container{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.container h1{
+    font-size: 4rem;
+    /* margin-bottom: 350px; */
+    color: white;
+    font-family: "Rubik", sans-serif;
+
+}
+.setting{
+    position: absolute;
+    bottom: 30px;
+    left : 20px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.setting-content{
+    display: flex;
+    gap: 0.5rem;
+}
+.setting-content input{
+    padding: 2px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.setting .fa-gear{
+font-size: 1.5rem;
+color: white;
+}
+.setting-content button{
+    padding: 4px;
+    color: white;
+    background-color: green;
+    border-radius: 5px
+}
+.hides{
+    display: none;
+}
+.time-container{
+    display: flex;
+    background-color: black;
+    opacity: 0.7;
+    height: 90px;
+    color: white;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+.time-container h2{
+    text-align: center;
+}
